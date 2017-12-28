@@ -1,6 +1,6 @@
 <?php
 
-namespace collec\Providers;
+namespace youCollections\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'collec\Events\Event' => [
-            'collec\Listeners\EventListener',
+        'youCollections\Events\Event' => [
+            'youCollections\Listeners\EventListener',
         ],
     ];
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace collec\Providers;
+namespace youCollections\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;

@@ -1,9 +1,9 @@
 <?php
 
-namespace collec\Http\Controllers\Auth;
+namespace youCollections\Http\Controllers\Auth;
 
-use collec\User;
-use collec\Http\Controllers\Controller;
+use youCollections\User;
+use youCollections\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 
@@ -58,7 +58,7 @@ class RegisterController extends Controller
      * Create a new user instance after a valid registration.
      *
      * @param  array  $data
-     * @return \collec\User
+     * @return \youCollections\User
      */
     protected function create(array $data)
     {

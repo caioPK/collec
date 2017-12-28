@@ -1,0 +1,13 @@
+<?php
+
+namespace youCollections;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Cliente extends Model
+{
+    protected $fillable = [
+        'nome',
+        'endereco',
+        'numero'];
+}

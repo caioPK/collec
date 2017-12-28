@@ -171,12 +171,13 @@ return [
         /*
          * Application Service Providers...
          */
-        collec\Providers\AppServiceProvider::class,
-        collec\Providers\AuthServiceProvider::class,
-        // collec\Providers\BroadcastServiceProvider::class,
-        collec\Providers\EventServiceProvider::class,
-        collec\Providers\RouteServiceProvider::class,
-
+        youCollections\Providers\AppServiceProvider::class,
+        youCollections\Providers\AuthServiceProvider::class,
+        // youCollections\Providers\BroadcastServiceProvider::class,
+        youCollections\Providers\EventServiceProvider::class,
+        youCollections\Providers\RouteServiceProvider::class,
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
     ],
 
     /*
@@ -225,6 +226,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
 
     ],
 
